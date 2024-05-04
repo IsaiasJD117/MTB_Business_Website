@@ -1,38 +1,5 @@
 #root {
   margin: 0 auto;
   text-align: center;
-}
-
-/* Container for the flipping element */
-.flip-container {
-  perspective: 1000px;
-}
-
-/* Flip speed and style */
-.flipper {
-  transition: 0.6s;
-  transform-style: preserve-3d;
-}
-
-/* Position the front and back side */
-.front, .back {
-  backface-visibility: hidden;
-  position: absolute;
-}
-
-/* Style for the front side */
-.front {
-  /* Ensure the front side is facing front initially */
-  z-index: 2;
-  transform: rotateY(0deg);
-}
-
-/* Style for the back side */
-.back {
-  transform: rotateY(180deg);
-}
-
-/* Hover effect - Flip the container */
-.flip-container:hover .flipper {
-  transform: rotateY(180deg);
+  font-family: rubik, sans-serif;
 }

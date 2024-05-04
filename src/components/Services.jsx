@@ -43,7 +43,7 @@ const Services =() => {
                     <Image src={service.imageUrl} alt={service.name} maxH={300} objectFit="cover" />
                     <Stack p={5}>
                     <Heading size="md">{service.name}</Heading>
-                    <Text>{service.description}</Text>
+                    <Text as="p">{service.description}</Text>
                     </Stack>
                 </Box>
                 ))}

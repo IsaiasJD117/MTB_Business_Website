@@ -17,6 +17,7 @@ const Header = () => {
         transitionDuration=".3s"
         transitionTimingFunction="ease-in-out"
         backgroundColor="#235789"
+        color={'#F1D302'}
         >
             <Box margin="0 auto" padding={4}>
                 <HStack 
@@ -25,13 +26,13 @@ const Header = () => {
                 >
                     <nav>
                         <HStack>
-                            <a href="#"><img src='' alt="logo" size='small' /></a>
+                            <a href="index.html"><h1>Muscle Tuners And Builders</h1>{/*<img src='' alt="logo" size='small' /> */}</a>
                         </HStack>
                     </nav>
                     <>
                     {window.innerWidth > 768 ?
                         <nav>
-                            <HStack spacing={8} fontSize={"xl"} color={'#F1D302'}>
+                            <HStack spacing={8} fontSize={"xl"}>
                                 <a href="">Sales</a>
                                 <a href="#services">Services</a>
                                 <a href="#contact">Contact Us</a>
